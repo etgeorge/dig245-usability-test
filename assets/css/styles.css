@@ -40,3 +40,26 @@ h1,h2{
     color: black;
     margin: 30px 0;
 }
+
+@media(max-width: 1165px){
+    .task-image{
+        width: 450px;
+        height: 252px;
+    }
+
+    .task-description{
+        font-size: smaller;
+    }
+}
+
+@media(max-width: 800px){
+    .task-image{
+        width: 400px;
+        height: 225px;
+    }
+
+    #home-page{
+        width: 650px;
+        height: 365px;
+    }
+}
