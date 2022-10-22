@@ -63,3 +63,10 @@ h1,h2{
         height: 365px;
     }
 }
+
+@media(max-width: 768px){
+    .task-image, #home-page{
+        width: 350px;
+        height: 196px;
+    }
+}
