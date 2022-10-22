@@ -1,2 +1,42 @@
 
 /* css */
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+h1,h2{
+    font-weight: 900;
+    
+}
+
+
+.home-page{
+    background-color: #335A89;
+    color: white;
+}
+
+.task-1{
+    background-color: #DF8547;
+}
+
+#home-page{
+    width: 750px;
+    height: 420px;
+    margin: 30px
+}
+
+.task-image{
+    width: 650px;
+    height: 365px;
+    margin: 30px 0;
+}
+
+.task-description{
+    color: white;
+    margin: 30px 0;
+}
+
+.task-description-2{
+    color: black;
+    margin: 30px 0;
+}

@@ -1,29 +1,170 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-<!-- meta tags -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>DIG 245 Usability Test</title>
+    <title>DIG 245 Usability Test</title>
 
-<!-- CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-<link rel="stylesheet" href="assets/css/styles.css">
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
 
-<!-- visible content goes here -->
-<h1>DIG 245 Usability Test</h1>
+    <!-- visible content goes here -->
+    <div class="container-fluid home-page">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Ethan George | Douglas Deustch <br>
+                        IM Leagues Usability Test
+
+                    </h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col offset-2">
+                    <img id="home-page" src="./assets/img/homePage.png" alt="Home page of IMLeagues">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid task-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-5 task-description">
+                    <h2>Login to IM Leagues</h2>
+                    <p>
+                        Time to complete: 1 minute<br><br>
+
+                        The user was unsuccessful because they did not have an account. Besides this, the login page was
+                        intuitive. The page was on the slower side when loading content.
+                    </p>
+                    <p>
+                        The site has a useful autocomplete feature when selecting the school you belong to.
+                    </p>
+                </div>
+                <div class="col-7">
+                    <img class="task-image" src="./assets/img/login.png" alt="IM Leagues login portal">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid task-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-5 task-description-2">
+                    <h2>Find and list active IM leagues for Fall '22</h2>
+                    <p>
+                        Time to complete: 40 seconds<br><br>
+
+                        The user took 5 extra clicks to find the current list of active leagues. We think this is
+                        because of the indirect step of first going to Davidson's page to find current leagues, instead
+                        of stepping directly to the leagues page from your profile.
+                    </p>
+                    <p>
+                        I recommend increasing the size and improving the location of the Davidson college button. </p>
+                </div>
+                <div class="col-7">
+                    <img class="task-image" src="./assets/img/team.png" alt="IM Leagues login portal">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid home-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-5 task-description">
+                    <h2>Find the name of the Fall '22 flickerball team from your freshman year hall</h2>
+                    <p>
+                        Time to complete: 40 seconds<br><br>
+
+                        The user took just 1 extra click to reach the target. The flow is intuitive and easy to follow.
+                        The user was only tripped up when he clicked on the “Teams” tab on the nav bar and nothing
+                        changed. They were already on the “Teams” page, there was just no indication from the UI.
+                    </p>
+                    <p>
+                        I recommend keeping the black bar underneath the “Teams” tab of the nav bar while the user is
+                        still there.
+                    </p>
+                </div>
+                <div class="col-7">
+                    <img class="task-image" src="./assets/img/flickerball.png" alt="IM Leagues login portal">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid task-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-5 task-description">
+                    <h2>Find the name of the Fall '22 flickerball team from your freshman year hall</h2>
+                    <p>
+                        Time to complete: 1 minute<br><br>
+
+                        The user took a different path to the target than we anticipated when designing the test.
+                        Multiple routes to the same page helps accomodate users who do not follow the same path but have
+                        the same end goal.
+                    </p>
+                    <p>
+                        I recommend a responsive nav bar design that expands this list when there is so much whitespace
+                        available.
+                    </p>
+                </div>
+                <div class="col-7">
+                    <img class="task-image" src="./assets/img/td.png" alt="IM Leagues login portal">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid task-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-5 task-description-2">
+                    <h2>Inspect element and find images with “alt” text</h2>
+                    <p>
+                        Time to complete: 1 minute 20 seconds<br><br>
+
+                        The user found two images with “alt” text: the university logo and the user profile picture.
+                        This is a good indication that a screen reader would be able to successfully and meaningfully
+                        describe pictures to users.
+                    </p>
+                    <p>
+                        The site manages image accessibility well, allowing users who need screen readers easy usability.
+                    </p>
+                </div>
+                <div class="col-7">
+                    <img class="task-image" src="./assets/img/inspect.png" alt="IM Leagues login portal">
+                </div>
+            </div>
+
+        </div>
+    </div>
 
 
-<!-- jquery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<!-- Boostrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-<!-- Project JS -->
-<script src="assets/js/main.js"></script>
+
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Boostrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <!-- Project JS -->
+    <script src="assets/js/main.js"></script>
 
 </body>
+
 </html>
